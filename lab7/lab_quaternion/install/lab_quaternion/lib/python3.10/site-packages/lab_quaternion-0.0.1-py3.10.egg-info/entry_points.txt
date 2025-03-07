@@ -1,0 +1,5 @@
+[console_scripts]
+gen3lite_pymoveit2 = lab_quaternion.gen3lite_pymoveit2:main
+pick_and_place = lab_quaternion.pick_and_place:main
+trajectory_from_csv = lab_quaternion.trajectory_from_csv:main
+

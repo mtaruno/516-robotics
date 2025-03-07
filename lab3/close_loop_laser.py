@@ -1,51 +1,55 @@
 #!/usr/bin/env python3
 
-import numpy as np
-from sensor_msgs.msg import LaserScan
-from geometry_msgs.msg import Twist
 import rclpy
 from rclpy.node import Node
+from sensor_msgs.msg import LaserScan
+from geometry_msgs.msg import Twist
 
 class LaserCloseLoop(Node):
     def __init__(self):
         super().__init__('laser_closeloop')
         self.debug = True
-        # Subscriber to the laser scan topic
-        self.sub # TODO: create the subscriber to read laser data
-        # Publisher for velocity commands
-        self.pub = # TODO: create the publisher to send velocity values
-        self.front_value_list = []
+        # Subscribe to the /scan topic.
+        self.sub = self.create_subscription(LaserScan, '/scan', self.scan_callback, 10)
+        # Publisher for velocity commands on /cmd_vel.
+        self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        
+        # Use a variable to store the initial front distance.
+        self.initial_front = None
         self.motion_move = Twist()
         self.motion_stop = Twist()
-        # Set constant speed to move forward
-        self.motion_move.linear.x = 0.15
-        # Set speed to stop
+        # Set a constant forward speed.
+        self.motion_move.linear.x = 0.15  # m/s
+        # Set stop command.
         self.motion_stop.linear.x = 0.0
 
     def scan_callback(self, msg):
-        # The index of the front value might need to be adjusted based on your sensor
-        current_front_value = msg.ranges[0]
-        self.front_value_list.append(current_front_value)
+        # Assume the "front" of the robot is the center index of the scan array.
+        front_index = len(msg.ranges) // 2
+        current_front = msg.ranges[front_index]
+        if self.initial_front is None:
+            self.initial_front = current_front
+            self.get_logger().info(f"Initial front distance: {self.initial_front:.2f} m")
+            self.pub.publish(self.motion_move)
+            return
 
-        if len(self.front_value_list) > 2:
-            # Adjust condition based on desired stopping distance
-            if # TODO: Fill out the if condition to check whether the last item on the list
-            # is smaller than the substraction between the first one and the desired distance to be traveled
-                self.pub.publish(self.motion_stop)
-                self.get_logger().info("Reached goal, stopping...")
-                rclpy.shutdown()
-            else:
-                self.pub.publish(self.motion_move)
-                if self.debug:
-                    self.get_logger().info(f"Value ahead: {current_front_value}")
-                    self.get_logger().info(f"Distance traveled: {self.front_value_list[0] - self.front_value_list[-1]}")
+        distance_traveled = self.initial_front - current_front
+        if distance_traveled >= 1.5:
+            self.pub.publish(self.motion_stop)
+            self.get_logger().info("Reached 1.5 m (laser): stopping...")
+            rclpy.shutdown()
+        else:
+            self.pub.publish(self.motion_move)
+            if self.debug:
+                self.get_logger().info(f"Current front: {current_front:.2f} m, Distance traveled: {distance_traveled:.2f} m")
 
 def main(args=None):
     rclpy.init(args=args)
-    scan_cl = LaserCloseLoop()
-    rclpy.spin(scan_cl)
-    scan_cl.destroy_node()
+    node = LaserCloseLoop()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
+

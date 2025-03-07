@@ -1,0 +1,4 @@
+source;share/lab_quaternion/local_setup.bash
+source;share/lab_quaternion/local_setup.dsv
+source;share/lab_quaternion/local_setup.sh
+source;share/lab_quaternion/local_setup.zsh

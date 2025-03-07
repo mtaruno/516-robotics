@@ -1,0 +1,26 @@
+[0.713s] Invoking command in '/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion': PYTHONPATH=/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/prefix_override:/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/lab_quaternion build --build-base /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/build install --record /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/install.log --single-version-externally-managed install_data
+[0.950s] running egg_info
+[0.950s] writing build/lab_quaternion/lab_quaternion.egg-info/PKG-INFO
+[0.951s] writing dependency_links to build/lab_quaternion/lab_quaternion.egg-info/dependency_links.txt
+[0.951s] writing entry points to build/lab_quaternion/lab_quaternion.egg-info/entry_points.txt
+[0.951s] writing requirements to build/lab_quaternion/lab_quaternion.egg-info/requires.txt
+[0.951s] writing top-level names to build/lab_quaternion/lab_quaternion.egg-info/top_level.txt
+[0.952s] reading manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[0.958s] writing manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[0.958s] running build
+[0.958s] running build_py
+[0.959s] running install
+[0.959s] running install_lib
+[0.960s] running install_data
+[0.960s] creating /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/share/lab_quaternion/launch
+[0.960s] copying launch/sort_world.launch.py -> /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/share/lab_quaternion/launch
+[0.961s] creating /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/share/lab_quaternion/worlds
+[0.961s] copying worlds/sort_world.sdf -> /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/share/lab_quaternion/worlds
+[0.961s] running install_egg_info
+[0.963s] removing '/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion-0.0.1-py3.10.egg-info' (and everything under it)
+[0.963s] Copying build/lab_quaternion/lab_quaternion.egg-info to /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion-0.0.1-py3.10.egg-info
+[0.964s] running install_scripts
+[0.982s] Installing gen3lite_pymoveit2 script to /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[0.982s] Installing trajectory_from_csv script to /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[0.982s] writing list of installed files to '/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/install.log'
+[1.000s] Invoked command in '/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion' returned '0': PYTHONPATH=/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/prefix_override:/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/lab_quaternion build --build-base /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/build install --record /home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/install.log --single-version-externally-managed install_data

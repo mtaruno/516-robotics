@@ -1,50 +1,53 @@
 #!/usr/bin/env python3
 
-import numpy as np
-from geometry_msgs.msg import Twist
-from nav_msgs.msg import Odometry
 import rclpy
 from rclpy.node import Node
+from nav_msgs.msg import Odometry
+from geometry_msgs.msg import Twist
 
 class OdomCloseLoop(Node):
     def __init__(self):
         super().__init__('close_loop_odom')
-        # debug mode
         self.debug = True
-        self.sub = # TODO: subscribe to /odom topic
-        # Publisher to control the velocity
-        self.pub = # TODO: add the publisher to send velocity values
-        self.position_x_list = []
+        # Subscribe to the /odom topic.
+        self.sub = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
+        # Publisher for velocity commands on /cmd_vel.
+        self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        
+        # Use a variable to store the initial x position.
+        self.initial_x = None
         self.motion_move = Twist()
         self.motion_stop = Twist()
-        # Set constant speed to move forward
-        self.motion_move.linear.x = 0.15
-        # Set speed to stop
+        # Set a constant forward speed.
+        self.motion_move.linear.x = 0.15  # m/s
+        # Set stop command.
         self.motion_stop.linear.x = 0.0
 
     def odom_callback(self, msg):
-        position_x = msg.pose.pose.position.x
-        self.position_x_list.append(position_x)
-        # Ensure the list has at least 2 elements
-        if len(self.position_x_list) > 2:
-            # Check if the last recorded position is greater than the first one
-            # plus the desired distance to travel
-            if # TODO: fill in the condition to check whether the last item on the list
-            # is greater than the first one plus the desired distance to be traveled
-                self.pub.publish(self.motion_stop)
-                self.get_logger().info("Reached goal, stopping...")
-                rclpy.shutdown()
-            else:
-                self.pub.publish(self.motion_move)
-                if self.debug:
-                    self.get_logger().info(f"Current position: {msg.pose.pose}")
+        current_x = msg.pose.pose.position.x
+        if self.initial_x is None:
+            self.initial_x = current_x
+            self.get_logger().info(f"Initial x position: {self.initial_x:.2f} m")
+            self.pub.publish(self.motion_move)
+            return
+
+        distance_traveled = current_x - self.initial_x
+        if distance_traveled >= 1.5:
+            self.pub.publish(self.motion_stop)
+            self.get_logger().info("Reached 1.5 m (odom): stopping...")
+            rclpy.shutdown()
+        else:
+            self.pub.publish(self.motion_move)
+            if self.debug:
+                self.get_logger().info(f"Current x: {current_x:.2f} m, Distance traveled: {distance_traveled:.2f} m")
 
 def main(args=None):
     rclpy.init(args=args)
-    odom_cl = OdomCloseLoop()
-    rclpy.spin(odom_cl)
-    odom_cl.destroy_node()
+    node = OdomCloseLoop()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
+

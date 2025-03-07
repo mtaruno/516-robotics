@@ -2,39 +2,41 @@
 
 import rclpy
 from rclpy.node import Node
-from nav_msgs.msg import # TODO: what type of message should be subscribed to?
+from nav_msgs.msg import Odometry  # Import the Odometry message type
 import matplotlib.pyplot as plt
 
 class OdomSubscriber(Node):
-
     def __init__(self):
         super().__init__('odom_subscriber')
+        # Create a subscription to the '/odom' topic with a queue size of 10
         self.subscription = self.create_subscription(
-            <message>, # TODO: what type of message should be subscribed to?
-            '</topic>', # TODO: what topic should be subscribed to?
-            <function>, # TODO: which function should be used as the 'callback' function?
-            <queue_size>) # TODO: what should the queue size be?
-        self.subscription  # prevent unused variable warning
+            Odometry,             # Message type
+            '/odom',              # Topic name
+            self.odom_callback,   # Callback function to process messages
+            10                    # Queue size
+        )
+        self.subscription  # Prevent unused variable warning
 
-        # Lists to store the x and y data
+        # Lists to store the x and y data for plotting
         self.x_data = []
         self.y_data = []
 
     def odom_callback(self, msg):
-        # Extract the x and y positions
-        position = # TODO: retrieve the pose data from the message
-        x = # TODO: retrieve the x data from the pose
-        y = # TODO: retireve the y data from the pose
+        # Retrieve the position from the odometry message:
+        # The pose information is contained in msg.pose.pose.position.
+        position = msg.pose.pose.position
+        x = position.x
+        y = position.y
 
-        # Log the position
+        # Log the received position
         self.get_logger().info(f"Position -> x: {x}, y: {y}")
 
-        # Append the x and y positions to the lists
+        # Append the x and y positions to the respective lists
         self.x_data.append(x)
         self.y_data.append(y)
 
     def plot_data(self):
-        # Plot x and y data
+        # Plot the odometry data using matplotlib
         plt.figure()
         plt.plot(self.x_data, self.y_data, label='Odometry Path')
         plt.title('Odometry X-Y Path')
@@ -49,9 +51,10 @@ def main(args=None):
     odom_subscriber = OdomSubscriber()
 
     try:
+        # Spin the node so callbacks are processed until a KeyboardInterrupt occurs.
         rclpy.spin(odom_subscriber)
     except KeyboardInterrupt:
-        # On shutdown, plot the data
+        # When the node is interrupted, plot the data
         odom_subscriber.plot_data()
 
     odom_subscriber.destroy_node()
@@ -59,3 +62,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+

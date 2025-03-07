@@ -1,0 +1,9 @@
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/uninstall.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/lab_quaternion_uninstall.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/test.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/edit_cache.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/rebuild_cache.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/list_install_components.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/install.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/install/local.dir
+/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/build/lab_quaternion/CMakeFiles/install/strip.dir
