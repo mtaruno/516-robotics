@@ -1,5 +1,0 @@
-  File "/home/mtaruno@netid.washington.edu/TECHIN516/lab7/src/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/__init__.py", line 1
-    touch lab_quaternion/__init__.py
-          ^^^^^^^^^^^^^^
-SyntaxError: invalid syntax
-
