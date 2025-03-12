@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lab-quaternion
+Version: 0.0.1
+Summary: ROS2 package for quaternion interpolation and trajectory planning
+Home-page: UNKNOWN
+Maintainer: mtaruno
+Maintainer-email: mtaruno@uw.edu
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

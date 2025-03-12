@@ -1,0 +1,27 @@
+[0.765s] Invoking command in '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab_quaternion build --build-base /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build install --record /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/install.log --single-version-externally-managed install_data
+[1.082s] running egg_info
+[1.083s] writing build/lab_quaternion/lab_quaternion.egg-info/PKG-INFO
+[1.083s] writing dependency_links to build/lab_quaternion/lab_quaternion.egg-info/dependency_links.txt
+[1.083s] writing entry points to build/lab_quaternion/lab_quaternion.egg-info/entry_points.txt
+[1.083s] writing requirements to build/lab_quaternion/lab_quaternion.egg-info/requires.txt
+[1.083s] writing top-level names to build/lab_quaternion/lab_quaternion.egg-info/top_level.txt
+[1.085s] reading manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.086s] writing manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.086s] running build
+[1.086s] running build_py
+[1.087s] running install
+[1.087s] running install_lib
+[1.089s] running install_data
+[1.089s] running install_egg_info
+[1.091s] removing '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion-0.0.1-py3.10.egg-info' (and everything under it)
+[1.091s] Copying build/lab_quaternion/lab_quaternion.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion-0.0.1-py3.10.egg-info
+[1.092s] running install_scripts
+[1.115s] Installing control_gripper script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.115s] Installing gen3lite_pymoveit2 script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.115s] Installing go_to_position script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.115s] Installing pick_and_place script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.116s] Installing pick_and_place_over_obstacle script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.116s] Installing pick_and_place_over_obstacle2 script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.116s] Installing trajectory_from_csv script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.116s] writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/install.log'
+[1.144s] Invoked command in '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion' returned '0': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab_quaternion build --build-base /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build install --record /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/install.log --single-version-externally-managed install_data

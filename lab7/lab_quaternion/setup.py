@@ -16,6 +16,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'control_gripper = lab_quaternion.control_gripper:main',
+            'go_to_position = lab_quaternion.go_to_position:main',
+            'pick_and_place_over_obstacle2 = lab_quaternion.pick_and_place_over_obstacle2:main',
+            'pick_and_place_over_obstacle = lab_quaternion.pick_and_place_over_obstacle:main',
             'trajectory_from_csv = lab_quaternion.trajectory_from_csv:main',
             'gen3lite_pymoveit2 = lab_quaternion.gen3lite_pymoveit2:main',
             'pick_and_place = lab_quaternion.pick_and_place:main',

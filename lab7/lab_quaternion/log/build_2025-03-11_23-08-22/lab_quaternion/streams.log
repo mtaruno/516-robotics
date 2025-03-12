@@ -1,0 +1,49 @@
+[0.775s] Invoking command in '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab_quaternion build --build-base /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build install --record /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/install.log --single-version-externally-managed install_data
+[1.087s] running egg_info
+[1.087s] creating build/lab_quaternion/lab_quaternion.egg-info
+[1.088s] writing build/lab_quaternion/lab_quaternion.egg-info/PKG-INFO
+[1.088s] writing dependency_links to build/lab_quaternion/lab_quaternion.egg-info/dependency_links.txt
+[1.088s] writing entry points to build/lab_quaternion/lab_quaternion.egg-info/entry_points.txt
+[1.088s] writing requirements to build/lab_quaternion/lab_quaternion.egg-info/requires.txt
+[1.088s] writing top-level names to build/lab_quaternion/lab_quaternion.egg-info/top_level.txt
+[1.088s] writing manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.090s] reading manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.090s] writing manifest file 'build/lab_quaternion/lab_quaternion.egg-info/SOURCES.txt'
+[1.090s] running build
+[1.090s] running build_py
+[1.091s] creating /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build
+[1.091s] creating /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib
+[1.091s] creating /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion
+[1.091s] copying lab_quaternion/gen3lite_pymoveit2.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion
+[1.091s] copying lab_quaternion/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion
+[1.091s] copying lab_quaternion/pick_and_place_over_obstacle.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion
+[1.091s] copying lab_quaternion/pick_and_place.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion
+[1.091s] copying lab_quaternion/trajectory_from_csv.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion
+[1.091s] running install
+[1.091s] running install_lib
+[1.092s] creating /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.092s] copying /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion/gen3lite_pymoveit2.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.092s] copying /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.092s] copying /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion/pick_and_place_over_obstacle.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.092s] copying /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion/pick_and_place.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.092s] copying /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build/lib/lab_quaternion/trajectory_from_csv.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion
+[1.093s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/gen3lite_pymoveit2.py to gen3lite_pymoveit2.cpython-310.pyc
+[1.094s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/__init__.py to __init__.cpython-310.pyc
+[1.094s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/pick_and_place_over_obstacle.py to pick_and_place_over_obstacle.cpython-310.pyc
+[1.095s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/pick_and_place.py to pick_and_place.cpython-310.pyc
+[1.095s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion/trajectory_from_csv.py to trajectory_from_csv.cpython-310.pyc
+[1.096s] running install_data
+[1.096s] copying package.xml -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/share/lab_quaternion
+[1.096s] creating /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/share/lab_quaternion/launch
+[1.096s] copying launch/sort_world.launch.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/share/lab_quaternion/launch
+[1.097s] creating /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/share/lab_quaternion/worlds
+[1.097s] copying worlds/sort_world.sdf -> /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/share/lab_quaternion/worlds
+[1.097s] running install_egg_info
+[1.099s] Copying build/lab_quaternion/lab_quaternion.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages/lab_quaternion-0.0.1-py3.10.egg-info
+[1.100s] running install_scripts
+[1.123s] Installing gen3lite_pymoveit2 script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.123s] Installing pick_and_place script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.123s] Installing pick_and_place_over_obstacle script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.124s] Installing trajectory_from_csv script to /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/lab_quaternion
+[1.124s] writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/install.log'
+[1.149s] Invoked command in '/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion' returned '0': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/install/lab_quaternion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab_quaternion build --build-base /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/build install --record /home/mtaruno@netid.washington.edu/516-robotics/lab7/lab_quaternion/build/lab_quaternion/install.log --single-version-externally-managed install_data
