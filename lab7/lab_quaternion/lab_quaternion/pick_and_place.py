@@ -8,9 +8,9 @@ from .gen3lite_pymoveit2 import Gen3LiteArm, Gen3LiteGripper
 import numpy as np
 
 
-# green_cube_pick_data = np.loadtxt('green_cube_pick_data.csv', delimiter=',')
-# green_cube_put_data = np.loadtxt('green_cube_put_data.csv', delimiter=',')
-# red_cube_pick_data = np.loadtxt('red_cube_pick_data.csv', delimiter=',')
+green_cube_pick_data = np.loadtxt('green_cube_pick_data.csv', delimiter=',')
+green_cube_put_data = np.loadtxt('green_cube_put_data.csv', delimiter=',')
+red_cube_pick_data = np.loadtxt('red_cube_pick_data.csv', delimiter=',')
 
 
 
