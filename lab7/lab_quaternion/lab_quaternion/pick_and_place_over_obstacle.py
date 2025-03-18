@@ -131,6 +131,5 @@ def main():
         gripper.shutdown()
         arm.shutdown()
 
-
 if __name__ == '__main__':
     main()
