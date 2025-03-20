@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/kinova/kinova.egg-info
+writing ../../build/kinova/kinova.egg-info/PKG-INFO
+writing dependency_links to ../../build/kinova/kinova.egg-info/dependency_links.txt
+writing entry points to ../../build/kinova/kinova.egg-info/entry_points.txt
+writing requirements to ../../build/kinova/kinova.egg-info/requires.txt
+writing top-level names to ../../build/kinova/kinova.egg-info/top_level.txt
+writing manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+reading manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+writing manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+copying kinova/gen3lite_pymoveit2.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+copying kinova/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+copying kinova/pick_and_place_over_obstacle.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+running install
+running install_lib
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+copying /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova/gen3lite_pymoveit2.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+copying /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+copying /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova/pick_and_place_over_obstacle.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova/gen3lite_pymoveit2.py to gen3lite_pymoveit2.cpython-310.pyc
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova/pick_and_place_over_obstacle.py to pick_and_place_over_obstacle.cpython-310.pyc
+running install_data
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index/resource_index
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index/resource_index/packages
+copying resource/kinova -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index/resource_index/packages
+copying package.xml -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/kinova
+running install_egg_info
+Copying ../../build/kinova/kinova.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log'

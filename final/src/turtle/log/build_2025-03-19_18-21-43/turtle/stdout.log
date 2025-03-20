@@ -1,0 +1,35 @@
+running egg_info
+creating build/turtle/turtle.egg-info
+writing build/turtle/turtle.egg-info/PKG-INFO
+writing dependency_links to build/turtle/turtle.egg-info/dependency_links.txt
+writing entry points to build/turtle/turtle.egg-info/entry_points.txt
+writing requirements to build/turtle/turtle.egg-info/requires.txt
+writing top-level names to build/turtle/turtle.egg-info/top_level.txt
+writing manifest file 'build/turtle/turtle.egg-info/SOURCES.txt'
+reading manifest file 'build/turtle/turtle.egg-info/SOURCES.txt'
+writing manifest file 'build/turtle/turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build/lib
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build/lib/turtle
+copying turtle/basket.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build/lib/turtle
+copying turtle/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build/lib/turtle
+running install
+running install_lib
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/python3.10/site-packages/turtle
+copying /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build/lib/turtle/basket.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/python3.10/site-packages/turtle
+copying /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/build/lib/turtle/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/python3.10/site-packages/turtle
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/python3.10/site-packages/turtle/basket.py to basket.cpython-310.pyc
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/python3.10/site-packages/turtle/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/share/ament_index
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/share/ament_index/resource_index
+creating /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/share/ament_index/resource_index/packages
+copying resource/turtle -> /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/share/turtle
+running install_egg_info
+Copying build/turtle/turtle.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/python3.10/site-packages/turtle-0.0.0-py3.10.egg-info
+running install_scripts
+Installing basket script to /home/mtaruno@netid.washington.edu/516-robotics/final/turtle/install/turtle/lib/turtle
+writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/final/turtle/build/turtle/install.log'

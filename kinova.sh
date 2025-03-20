@@ -1,6 +1,9 @@
 # kinova arm commands
 
 
+# connectivity
+fastdds
+
 # make sure you have sourced the correct .bashrc file
 source /opt/ros/humble/setup.bash
 source ~/TECHIN516/kinova_ws/install/setup.bash

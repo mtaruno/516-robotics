@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/kinova/kinova.egg-info/PKG-INFO
+../../build/kinova/kinova.egg-info/SOURCES.txt
+../../build/kinova/kinova.egg-info/dependency_links.txt
+../../build/kinova/kinova.egg-info/entry_points.txt
+../../build/kinova/kinova.egg-info/requires.txt
+../../build/kinova/kinova.egg-info/top_level.txt
+../../build/kinova/kinova.egg-info/zip-safe
+kinova/__init__.py
+kinova/gen3lite_pymoveit2.py
+kinova/go.py
+resource/kinova
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,6 @@
+source;share/kinova/hook/pythonpath.ps1
+source;share/kinova/hook/pythonpath.dsv
+source;share/kinova/hook/pythonpath.sh
+source;share/kinova/hook/ament_prefix_path.ps1
+source;share/kinova/hook/ament_prefix_path.dsv
+source;share/kinova/hook/ament_prefix_path.sh

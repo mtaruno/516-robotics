@@ -1,0 +1,3 @@
+[console_scripts]
+nav_timer = nav_timer_pkg.nav_timer:main
+

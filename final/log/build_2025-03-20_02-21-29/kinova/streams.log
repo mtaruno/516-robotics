@@ -1,0 +1,21 @@
+[1.417s] Invoking command in '/home/mtaruno@netid.washington.edu/516-robotics/final/src/kinova': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinova build --build-base /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build install --record /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log --single-version-externally-managed install_data
+[1.864s] running egg_info
+[1.866s] writing ../../build/kinova/kinova.egg-info/PKG-INFO
+[1.866s] writing dependency_links to ../../build/kinova/kinova.egg-info/dependency_links.txt
+[1.866s] writing entry points to ../../build/kinova/kinova.egg-info/entry_points.txt
+[1.866s] writing requirements to ../../build/kinova/kinova.egg-info/requires.txt
+[1.866s] writing top-level names to ../../build/kinova/kinova.egg-info/top_level.txt
+[1.870s] reading manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+[1.872s] writing manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+[1.872s] running build
+[1.872s] running build_py
+[1.873s] running install
+[1.873s] running install_lib
+[1.876s] running install_data
+[1.876s] running install_egg_info
+[1.879s] removing '/home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova-0.0.0-py3.10.egg-info' (and everything under it)
+[1.880s] Copying ../../build/kinova/kinova.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova-0.0.0-py3.10.egg-info
+[1.881s] running install_scripts
+[1.920s] Installing go script to /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/kinova
+[1.920s] writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log'
+[1.954s] Invoked command in '/home/mtaruno@netid.washington.edu/516-robotics/final/src/kinova' returned '0': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinova build --build-base /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build install --record /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log --single-version-externally-managed install_data

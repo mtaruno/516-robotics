@@ -1,0 +1,36 @@
+running egg_info
+creating build/nav_timer_pkg/nav_timer_pkg.egg-info
+writing build/nav_timer_pkg/nav_timer_pkg.egg-info/PKG-INFO
+writing dependency_links to build/nav_timer_pkg/nav_timer_pkg.egg-info/dependency_links.txt
+writing entry points to build/nav_timer_pkg/nav_timer_pkg.egg-info/entry_points.txt
+writing requirements to build/nav_timer_pkg/nav_timer_pkg.egg-info/requires.txt
+writing top-level names to build/nav_timer_pkg/nav_timer_pkg.egg-info/top_level.txt
+writing manifest file 'build/nav_timer_pkg/nav_timer_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/nav_timer_pkg/nav_timer_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/nav_timer_pkg/nav_timer_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build/lib
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build/lib/nav_timer_pkg
+copying nav_timer_pkg/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build/lib/nav_timer_pkg
+copying nav_timer_pkg/nav_timer.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build/lib/nav_timer_pkg
+running install
+running install_lib
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/python3.10/site-packages/nav_timer_pkg
+copying /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build/lib/nav_timer_pkg/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/python3.10/site-packages/nav_timer_pkg
+copying /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/build/lib/nav_timer_pkg/nav_timer.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/python3.10/site-packages/nav_timer_pkg
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/python3.10/site-packages/nav_timer_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/python3.10/site-packages/nav_timer_pkg/nav_timer.py to nav_timer.cpython-310.pyc
+running install_data
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/share/ament_index
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/share/ament_index/resource_index
+creating /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/share/ament_index/resource_index/packages
+copying resource/nav_timer_pkg -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/share/nav_timer_pkg
+copying launch/timer.launch.py -> /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/share/nav_timer_pkg
+running install_egg_info
+Copying build/nav_timer_pkg/nav_timer_pkg.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/python3.10/site-packages/nav_timer_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nav_timer script to /home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/install/nav_timer_pkg/lib/nav_timer_pkg
+writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/lab4/nav_timer_pkg/build/nav_timer_pkg/install.log'

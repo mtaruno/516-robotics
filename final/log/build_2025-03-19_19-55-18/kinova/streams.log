@@ -1,0 +1,39 @@
+[1.013s] Invoking command in '/home/mtaruno@netid.washington.edu/516-robotics/final/src/kinova': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinova build --build-base /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build install --record /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log --single-version-externally-managed install_data
+[1.307s] running egg_info
+[1.307s] creating ../../build/kinova/kinova.egg-info
+[1.307s] writing ../../build/kinova/kinova.egg-info/PKG-INFO
+[1.307s] writing dependency_links to ../../build/kinova/kinova.egg-info/dependency_links.txt
+[1.308s] writing entry points to ../../build/kinova/kinova.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/kinova/kinova.egg-info/requires.txt
+[1.308s] writing top-level names to ../../build/kinova/kinova.egg-info/top_level.txt
+[1.308s] writing manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+[1.310s] reading manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+[1.311s] writing manifest file '../../build/kinova/kinova.egg-info/SOURCES.txt'
+[1.311s] running build
+[1.311s] running build_py
+[1.311s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build
+[1.311s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib
+[1.312s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+[1.312s] copying kinova/gen3lite_pymoveit2.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+[1.312s] copying kinova/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+[1.312s] copying kinova/pick_and_place_over_obstacle.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova
+[1.312s] running install
+[1.313s] running install_lib
+[1.314s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+[1.314s] copying /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova/gen3lite_pymoveit2.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+[1.314s] copying /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova/__init__.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+[1.314s] copying /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build/lib/kinova/pick_and_place_over_obstacle.py -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova
+[1.316s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova/gen3lite_pymoveit2.py to gen3lite_pymoveit2.cpython-310.pyc
+[1.317s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova/__init__.py to __init__.cpython-310.pyc
+[1.318s] byte-compiling /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova/pick_and_place_over_obstacle.py to pick_and_place_over_obstacle.cpython-310.pyc
+[1.318s] running install_data
+[1.318s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index
+[1.319s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index/resource_index
+[1.319s] creating /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index/resource_index/packages
+[1.319s] copying resource/kinova -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/ament_index/resource_index/packages
+[1.319s] copying package.xml -> /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/share/kinova
+[1.319s] running install_egg_info
+[1.322s] Copying ../../build/kinova/kinova.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages/kinova-0.0.0-py3.10.egg-info
+[1.323s] running install_scripts
+[1.351s] writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log'
+[1.376s] Invoked command in '/home/mtaruno@netid.washington.edu/516-robotics/final/src/kinova' returned '0': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/final/install/kinova/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kinova build --build-base /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/build install --record /home/mtaruno@netid.washington.edu/516-robotics/final/build/kinova/install.log --single-version-externally-managed install_data

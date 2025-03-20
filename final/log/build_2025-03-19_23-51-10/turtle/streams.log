@@ -1,0 +1,21 @@
+[1.406s] Invoking command in '/home/mtaruno@netid.washington.edu/516-robotics/final/src/turtle': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/final/install/turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle build --build-base /home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/build install --record /home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/install.log --single-version-externally-managed install_data
+[1.878s] running egg_info
+[1.880s] writing ../../build/turtle/turtle.egg-info/PKG-INFO
+[1.880s] writing dependency_links to ../../build/turtle/turtle.egg-info/dependency_links.txt
+[1.880s] writing entry points to ../../build/turtle/turtle.egg-info/entry_points.txt
+[1.880s] writing requirements to ../../build/turtle/turtle.egg-info/requires.txt
+[1.880s] writing top-level names to ../../build/turtle/turtle.egg-info/top_level.txt
+[1.883s] reading manifest file '../../build/turtle/turtle.egg-info/SOURCES.txt'
+[1.885s] writing manifest file '../../build/turtle/turtle.egg-info/SOURCES.txt'
+[1.885s] running build
+[1.885s] running build_py
+[1.885s] running install
+[1.886s] running install_lib
+[1.888s] running install_data
+[1.889s] running install_egg_info
+[1.892s] removing '/home/mtaruno@netid.washington.edu/516-robotics/final/install/turtle/lib/python3.10/site-packages/turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[1.892s] Copying ../../build/turtle/turtle.egg-info to /home/mtaruno@netid.washington.edu/516-robotics/final/install/turtle/lib/python3.10/site-packages/turtle-0.0.0-py3.10.egg-info
+[1.893s] running install_scripts
+[1.925s] Installing basket script to /home/mtaruno@netid.washington.edu/516-robotics/final/install/turtle/lib/turtle
+[1.925s] writing list of installed files to '/home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/install.log'
+[1.965s] Invoked command in '/home/mtaruno@netid.washington.edu/516-robotics/final/src/turtle' returned '0': PYTHONPATH=/home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtaruno@netid.washington.edu/516-robotics/final/install/turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle build --build-base /home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/build install --record /home/mtaruno@netid.washington.edu/516-robotics/final/build/turtle/install.log --single-version-externally-managed install_data
